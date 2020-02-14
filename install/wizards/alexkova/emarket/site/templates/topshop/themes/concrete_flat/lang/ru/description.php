@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_CONCRETE_FLAT"] = "CONCRETE_FLAT";
+?>

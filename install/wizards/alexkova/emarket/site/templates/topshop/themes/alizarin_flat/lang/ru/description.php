@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_ALIZARIN_FLAT"] = "ALIZARIN_FLAT";
+?>

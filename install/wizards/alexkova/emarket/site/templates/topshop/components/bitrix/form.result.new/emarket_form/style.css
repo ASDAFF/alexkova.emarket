@@ -1,0 +1,18 @@
+.emarket-form{
+    padding: 20px;
+    background: #dff0d8;
+}
+
+.emarket-form-question{
+    margin-bottom: 20px;
+}
+
+.emarket-form-question textarea{
+    width: 100%;
+}
+
+.error-field  input[type="text"],
+.error-field  textarea{
+    background: #F8F2D4 !important;
+    color: #cc0000;
+}

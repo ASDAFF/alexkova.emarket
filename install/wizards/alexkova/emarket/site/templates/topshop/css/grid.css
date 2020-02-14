@@ -1,0 +1,95 @@
+.wrapper{
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tb10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tb20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rl10{
+    margin: 50px auto;
+    margin-top: 0; margin-bottom: 0;
+    width: 100%;
+    background: #F00;
+}
+
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}
+
+.all-center{
+    text-align: center;
+}
+
+.container-full{
+    width: 100%;
+}
+
+
+
+.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5,
+.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+
+.span_1_of_5{ width: 18% }
+.span_2_of_5{ width: 38% }
+.span_3_of_5{ width: 58% }
+.span_4_of_5{ width: 78% }
+.span_5_of_5{ width: 98% }
+
+.span_1_of_4{ width: 23% }
+.span_2_of_4{ width: 48% }
+.span_3_of_4{ width: 73% }
+.span_4_of_4{ width: 98% }
+
+.span_1_of_3{ width: 31.33% }
+.span_2_of_3{ width: 64.66% }
+.span_3_of_3{ width: 98% }
+
+.clear{
+    clear: both;
+}
+
+.clear-bottom{
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.from-left{
+    margin-left: 0;
+}
+
+.from-right{
+    margin-right: 0;
+}
+
+.mobile-container{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+

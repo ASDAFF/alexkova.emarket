@@ -1,0 +1,6 @@
+<?
+$MESS ['EMARKET_DEFAULT_TEMPLATE_NAME'] = "Малая корзина";
+$MESS ['EMARKET_DEFAULT_TEMPLATE_DESCRIPTION'] = "Малая корзина";
+$MESS ['EMARKET_NAME'] = "Корзина";
+$MESS ['EMARKET_SECTION_DESCRIPTION'] = "topshop";
+?>

@@ -1,0 +1,55 @@
+/* Left menu*/
+ul.left-menu
+{
+	list-style:none;
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+    font-family: 'Exo 2';
+}
+
+ul.left-menu li
+{
+	padding: 14px 16px;
+	background:#FFF;
+    border-bottom: #e8e8e8 1px solid;
+}
+
+ul.left-menu li a
+{
+	font-size:100%;
+	color:#333;
+	font-weight:bold;
+	text-decoration:none;
+    display: block;
+    width: 100%;
+}
+
+ul.left-menu li a:visited
+{
+    color:#333;
+}
+
+ul.left-menu li.selected
+{
+    color:#000;
+    background: #e8e8e8;
+}
+
+ul.left-menu li:hover
+{
+	color:#000;
+    background: #e8e8e8;
+
+}
+
+
+ul.left-menu li a.selected:link, 
+ul.left-menu li a.selected:visited, 
+ul.left-menu li a.selected:active, 
+ul.left-menu li a.selected:hover
+{
+	color:#333;
+}
+
+

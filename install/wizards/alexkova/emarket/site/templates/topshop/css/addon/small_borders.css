@@ -1,0 +1,15 @@
+ul.top-menu > li > ul, #vertical-multilevel-menu > li > ul {
+    border-width: 1px;
+}
+
+ul.top-menu > li > ul, #vertical-multilevel-menu > li > ul {
+    border-width: 1px;
+}
+
+.sale-cart > div{
+    border-width: 1px;
+}
+
+.sale-cart:hover > div{
+    border-width: 1px;
+}

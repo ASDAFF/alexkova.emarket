@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_DAYDEW_PASTEL"] = "DAYDEW_PASTEL";
+?>

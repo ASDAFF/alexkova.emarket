@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_MIDNIGHT"] = "MIDNIGHT";
+?>

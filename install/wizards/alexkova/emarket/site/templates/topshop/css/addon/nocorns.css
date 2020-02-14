@@ -1,0 +1,64 @@
+.color-button,
+.color-icon-button,
+ul.top-menu li.first a,
+ul.top-menu li.last a,
+#search-form,
+.best-choice.active,
+.best-choice:hover,
+input[type=button],
+.top-sale-button,
+.emarket-sort-panel-buttons > a.active,
+.emarket-sort-panel-view > a.present-plitka.active,
+.emarket-sort-panel-view > a.present-list.active,
+.emarket-sort-panel-view > a.present-table.active,
+.icon-transparent.active,
+.quantity-button-plus,
+.quantity-button-minus,
+.tp-leftarrow.default,
+.tp-rightarrow.default{
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: 0;
+}
+
+@keyframes imageview {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes imageview {
+    from {
+        opacity: 0.2;
+        filter: grayscale(50%);
+        -moz-filter: grayscale(50%);
+        -webkit-filter: grayscale(50%);
+        -ms-filter: grayscale(50%);
+    }
+    to {
+        opacity: 1;
+        filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+    }
+}
+
+@keyframes imageview {
+    from {
+        opacity: 0.2;
+        filter: grayscale(50%);
+        -moz-filter: grayscale(50%);
+        -webkit-filter: grayscale(50%);
+        -ms-filter: grayscale(50%);
+    }
+    to {
+        opacity: 1;
+        filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+    }
+}

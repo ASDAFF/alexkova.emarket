@@ -1,0 +1,1 @@
+<img src="#SITE_DIR#images/logo-company.png" style="max-width: 100%" alt="">

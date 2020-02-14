@@ -1,0 +1,141 @@
+.left-catalog-title{
+    padding: 10px 10px 12px;
+    color: #FFF;
+}
+
+
+.left-menu{
+    width: 214px;
+    margin-bottom: 20px;
+}
+
+ul#vertical-multilevel-menu, #vertical-multilevel-menu > ul
+{
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+	width: 214px;
+	font-size:12px;
+    border:1px solid #E8E8E8;
+
+}
+#vertical-multilevel-menu > li{
+    position: relative;
+}
+
+
+#vertical-multilevel-menu > li > ul
+{
+    position:absolute;
+    /*top:-999em;*/
+    top: 0px;
+    display:none;
+    z-index:500;
+    height:auto;
+    width:300px;
+    background: #FFF;
+    border:1px solid #E8E8E8;
+}
+
+#vertical-multilevel-menu li ul ul,
+#vertical-multilevel-menu li ul:hover{
+    display: inline-block;
+
+}
+
+#vertical-multilevel-menu li.l-2{
+    display: inline-block;
+}
+
+#vertical-multilevel-menu li.l-2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Submenu Items */
+#vertical-multilevel-menu > li >a
+{
+	display: block;
+	text-decoration: none;
+	color: #4F4F4F;
+	font-size: 14px;
+    padding: 13px 10px 15px 10px;
+    background: #FFF;
+}
+
+#vertical-multilevel-menu > li > a{
+    border-bottom:1px solid #E8E8E8;
+}
+
+#vertical-multilevel-menu li.l-1 ul{
+    padding: 0;
+    padding-bottom: 20px;
+    padding: 0;
+    padding-bottom: 20px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+#vertical-multilevel-menu li.l-2{
+    margin: 10px 0px 0 20px;
+    width: 280px;
+    padding: 0;
+}
+
+#vertical-multilevel-menu li.l-2 > a{
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    padding: 13px 0px 15px 0px;
+}
+
+#vertical-multilevel-menu li.l-2 ul{
+    margin-left: 10px;
+}
+
+#vertical-multilevel-menu li.l-3{
+    margin-right: 10px;
+}
+
+#vertical-multilevel-menu li.l-3 > a{
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+/*Items Hover */
+#vertical-multilevel-menu > li >  a:hover
+{
+	background-color: #F8F8F8;
+}
+/* Holly Hack. IE Requirement \*/
+* html ul#vertical-multilevel-menu > li { float: left; height: 1%; }
+* html ul#vertical-multilevel-menu > li a { height: 1%; }
+/* End */
+
+#vertical-multilevel-menu > li > ul
+{
+	margin:-27px 0 0 200px;
+}
+
+/*Submenu show*/
+#vertical-multilevel-menu li:hover > ul,
+#vertical-multilevel-menu li.jsvhover > ul
+{
+	/*z-index:1000;
+	top:auto;*/
+    display: inline-block;
+}
+
+#vertical-multilevel-menu li:hover.l-2 > a,
+#vertical-multilevel-menu li:hover.l-3 > a{
+    text-decoration: underline;
+}
+
+

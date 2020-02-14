@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_EMERALD_FLAT"] = "EMERALD_FLAT";
+?>

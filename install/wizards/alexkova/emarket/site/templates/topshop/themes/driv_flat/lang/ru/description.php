@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_DRIV_FLAT"] = "DRIV_FLAT";
+?>

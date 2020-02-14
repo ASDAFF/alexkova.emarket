@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_RIVER_PASTEL"] = "RIVER_PASTEL";
+?>

@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_ASOSSUM_FLAT"] = "ASOSSUM_FLAT";
+?>

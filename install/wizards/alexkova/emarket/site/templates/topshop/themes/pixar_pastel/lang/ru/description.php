@@ -1,0 +1,3 @@
+<?
+$MESS["CPST_PIXAR_PASTEL"] = "PIXAR_PASTEL";
+?>

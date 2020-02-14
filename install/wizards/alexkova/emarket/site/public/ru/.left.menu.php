@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О компании", 
+		"#SITE_DIR#company/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	/*Array(
+		"Наши магазины", 
+		"#SITE_DIR#/company/store/",
+		Array(), 
+		Array(), 
+		"" 
+	),*/
+	Array(
+		"Оплата и доставка", 
+		"#SITE_DIR#company/info/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Личный кабинет", 
+		"#SITE_DIR#personal/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		"#SITE_DIR#actions/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Статьи", 
+		"#SITE_DIR#info/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"#SITE_DIR#news/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"#SITE_DIR#company/service/",
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
